@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 int main() {
-    // --- MOVIMENTO DA TORRE (for) ---
+    // MOVIMENTO DA TORRE (for) 
     int i;
     printf("Movimento da Torre:\n");
     for (i = 1; i <= 5; i++) {
         printf("Direita (%d casa)\n", i);
     }
 
-    printf("\n"); // Separador visual
+    printf("\n"); // Separador 
 
-    // --- MOVIMENTO DO BISPO (while) ---
+    //  MOVIMENTO DO BISPO (while) 
     int passo = 1;
     printf("Movimento do Bispo:\n");
     while (passo <= 5) {
@@ -20,7 +20,7 @@ int main() {
 
     printf("\n");
 
-    // --- MOVIMENTO DA RAINHA (do-while) ---
+    //  MOVIMENTO DA RAINHA (do-while) 
     int cont = 1;
     printf("Movimento da Rainha:\n");
     do {
